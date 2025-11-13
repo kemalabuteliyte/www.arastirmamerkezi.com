@@ -129,6 +129,18 @@
   font-size: 0.85rem;
 }
 
+.empty-state {
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.empty-state p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
 .publications-section {
   padding: 5rem 0;
   background: linear-gradient(180deg, transparent 0%, rgba(124, 58, 237, 0.05) 50%, transparent 100%);

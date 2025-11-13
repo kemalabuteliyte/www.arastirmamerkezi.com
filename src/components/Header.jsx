@@ -1,20 +1,24 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
+import { translations } from '../translations/translations';
 import './Header.css';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const { language, toggleLanguage } = useLanguage();
+  const t = translations[language];
 
   const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/research', label: 'Research Areas' },
-    { path: '/solutions', label: 'Solutions' },
-    { path: '/partners', label: 'Partners' },
-    { path: '/news', label: 'News' },
-    { path: '/careers', label: 'Careers' },
-    { path: '/contact', label: 'Contact' },
+    { path: '/', label: t.nav.home },
+    { path: '/about', label: t.nav.about },
+    { path: '/research', label: t.nav.research },
+    { path: '/solutions', label: t.nav.solutions },
+    { path: '/partners', label: t.nav.partners },
+    { path: '/news', label: t.nav.news },
+    { path: '/careers', label: t.nav.careers },
+    { path: '/contact', label: t.nav.contact },
   ];
 
   const isActive = (path) => location.pathname === path;
@@ -49,6 +53,13 @@ const Header = () => {
                 {item.label}
               </Link>
             ))}
+            <button
+              className="language-toggle"
+              onClick={toggleLanguage}
+              aria-label="Toggle language"
+            >
+              {language === 'en' ? 'TR' : 'EN'}
+            </button>
           </nav>
         </div>
       </div>
