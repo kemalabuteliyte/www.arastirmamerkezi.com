@@ -1,0 +1,281 @@
+.partners {
+  padding-top: 6rem;
+}
+
+.partners-hero {
+  padding: 5rem 0 4rem;
+  text-align: center;
+}
+
+.partners-hero-content h1 {
+  margin-bottom: 1.5rem;
+}
+
+.partners-hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.partnership-types {
+  padding: 4rem 0;
+}
+
+.partnership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.partnership-card {
+  padding: 2.5rem;
+}
+
+.partnership-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.partnership-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.partnership-description {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.partnership-benefits h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.partnership-benefits ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.partnership-benefits li {
+  padding-left: 1.75rem;
+  position: relative;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.partnership-benefits li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent-purple);
+  font-weight: bold;
+}
+
+.collaboration-areas {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(124, 58, 237, 0.05) 50%, transparent 100%);
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.area-card {
+  padding: 2.5rem;
+}
+
+.area-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.area-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.area-card li {
+  padding-left: 1.75rem;
+  position: relative;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.area-card li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent-purple);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.partnership-process {
+  padding: 5rem 0;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.process-step {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.step-number {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.step-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.step-content p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.partnership-benefits-section {
+  padding: 5rem 0;
+}
+
+.benefits-content {
+  padding: 4rem;
+}
+
+.benefits-content h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.benefit-item h3 {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.benefit-item p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.cta-section {
+  padding: 5rem 0;
+}
+
+.cta-content {
+  padding: 4rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  margin-bottom: 1.5rem;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+}
+
+.cta-content p {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .partners {
+    padding-top: 5rem;
+  }
+
+  .partners-hero {
+    padding: 3rem 0 2rem;
+  }
+
+  .partnership-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .partnership-card {
+    padding: 2rem;
+  }
+
+  .areas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .benefits-content {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .cta-content {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}

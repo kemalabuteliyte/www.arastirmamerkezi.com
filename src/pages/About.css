@@ -1,0 +1,172 @@
+.about {
+  padding-top: 6rem;
+}
+
+.about-hero {
+  padding: 5rem 0 4rem;
+  text-align: center;
+}
+
+.about-hero-content h1 {
+  margin-bottom: 1.5rem;
+}
+
+.about-hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about-mission {
+  padding: 4rem 0;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.mission-card {
+  padding: 3rem;
+  text-align: center;
+}
+
+.mission-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.mission-card h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.mission-card p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.about-values {
+  padding: 5rem 0;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.value-item {
+  padding: 2.5rem;
+}
+
+.value-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.value-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.value-item p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.about-approach {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(124, 58, 237, 0.05) 50%, transparent 100%);
+}
+
+.approach-content {
+  margin-top: 3rem;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.approach-item {
+  padding: 2.5rem;
+}
+
+.approach-item h3 {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.approach-item p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.about-impact {
+  padding: 5rem 0;
+}
+
+.impact-content {
+  padding: 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.impact-content h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.impact-content p {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.impact-content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding-top: 5rem;
+  }
+
+  .about-hero {
+    padding: 3rem 0 2rem;
+  }
+
+  .mission-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-card {
+    padding: 2rem;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-content {
+    padding: 2.5rem 1.5rem;
+  }
+}

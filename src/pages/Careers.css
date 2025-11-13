@@ -1,0 +1,330 @@
+.careers {
+  padding-top: 6rem;
+}
+
+.careers-hero {
+  padding: 5rem 0 4rem;
+  text-align: center;
+}
+
+.careers-hero-content h1 {
+  margin-bottom: 1.5rem;
+}
+
+.careers-hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.why-join {
+  padding: 4rem 0;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.benefit-card {
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.benefit-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.benefit-card p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.culture-section {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(124, 58, 237, 0.05) 50%, transparent 100%);
+}
+
+.culture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.culture-card {
+  padding: 2.5rem;
+}
+
+.culture-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.culture-card p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.open-positions {
+  padding: 5rem 0;
+}
+
+.positions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.position-card {
+  padding: 2.5rem;
+}
+
+.position-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.position-main {
+  flex: 1;
+}
+
+.position-title {
+  font-size: 1.75rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.position-department {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.position-meta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.position-type,
+.position-location {
+  background: rgba(124, 58, 237, 0.2);
+  color: var(--light-purple);
+  padding: 0.35rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.position-location {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
+}
+
+.position-description {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.position-requirements h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.position-requirements ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.position-requirements li {
+  padding-left: 1.75rem;
+  position: relative;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.position-requirements li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent-purple);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.internship-program {
+  padding: 5rem 0;
+}
+
+.internship-content {
+  padding: 4rem;
+}
+
+.internship-content h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.internship-content > p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.internship-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.internship-benefit h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.internship-benefit ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.internship-benefit li {
+  padding-left: 1.75rem;
+  position: relative;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.internship-benefit li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent-purple);
+  font-weight: bold;
+}
+
+.application-section {
+  padding: 5rem 0;
+}
+
+.application-content {
+  padding: 4rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.application-content h2 {
+  margin-bottom: 1.5rem;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+}
+
+.application-content > p {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+}
+
+.application-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.application-note {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .careers {
+    padding-top: 5rem;
+  }
+
+  .careers-hero {
+    padding: 3rem 0 2rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefit-card {
+    padding: 2rem;
+  }
+
+  .culture-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .position-card {
+    padding: 2rem;
+  }
+
+  .position-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .position-meta {
+    width: 100%;
+  }
+
+  .internship-content {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .internship-benefits {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .application-content {
+    padding: 2.5rem 1.5rem;
+  }
+}

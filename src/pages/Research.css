@@ -1,0 +1,161 @@
+.research {
+  padding-top: 6rem;
+}
+
+.research-hero {
+  padding: 5rem 0 4rem;
+  text-align: center;
+}
+
+.research-hero-content h1 {
+  margin-bottom: 1.5rem;
+}
+
+.research-hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.research-content {
+  padding: 3rem 0 5rem;
+}
+
+.research-areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2.5rem;
+}
+
+.research-area-card {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.research-area-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.research-area-icon {
+  font-size: 3rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.research-area-title {
+  font-size: 1.75rem;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.research-area-description {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin: 0;
+  font-weight: 500;
+}
+
+.research-area-details {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.research-area-details li {
+  padding-left: 1.75rem;
+  position: relative;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-size: 0.975rem;
+}
+
+.research-area-details li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent-purple);
+  font-weight: bold;
+}
+
+.research-commitment {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(124, 58, 237, 0.05) 100%);
+}
+
+.commitment-content {
+  padding: 4rem;
+}
+
+.commitment-content h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.commitment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+.commitment-item h3 {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.commitment-item p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .research-areas-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .research {
+    padding-top: 5rem;
+  }
+
+  .research-hero {
+    padding: 3rem 0 2rem;
+  }
+
+  .research-area-card {
+    padding: 2rem;
+  }
+
+  .research-area-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .research-area-title {
+    font-size: 1.5rem;
+  }
+
+  .commitment-content {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .commitment-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
